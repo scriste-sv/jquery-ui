@@ -630,4 +630,6 @@ $.widget( "ui.menu", {
 	}
 });
 
+return $.ui.menu;
+
 }));

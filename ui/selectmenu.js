@@ -16,7 +16,7 @@
  */
 (function( $, undefined ) {
 
-$.widget( "ui.selectmenu", {
+return $.widget( "ui.selectmenu", {
 	version: "@VERSION",
 	defaultElement: "<select>",
 	options: {
@@ -528,7 +528,5 @@ $.widget( "ui.selectmenu", {
 		this.label.attr( "for", this.ids.element );
 	}
 });
-
-return $.ui.selectmenu;
 
 }( jQuery ));

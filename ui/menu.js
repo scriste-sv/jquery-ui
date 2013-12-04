@@ -23,7 +23,7 @@
 	}
 }(function( $ ) {
 
-$.widget( "ui.menu", {
+return $.widget( "ui.menu", {
 	version: "@VERSION",
 	defaultElement: "<ul>",
 	delay: 300,
@@ -629,7 +629,5 @@ $.widget( "ui.menu", {
 		this._trigger( "select", event, ui );
 	}
 });
-
-return $.ui.menu;
 
 }));
